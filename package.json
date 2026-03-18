@@ -1,0 +1,14 @@
+{
+  "name": "workshop-agentic-plan-to-test",
+  "version": "1.0.0",
+  "description": "Workshop: Agentic Plan to Test — hands-on Playwright + MCP workshop",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:slide10": "npx playwright test tests/slide10/",
+    "test:slide22": "npx playwright test tests/slide22/",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0"
+  }
+}
