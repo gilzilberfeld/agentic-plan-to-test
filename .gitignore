@@ -13,3 +13,4 @@ playwright/.cache/
 # OS
 .DS_Store
 Thumbs.db
+.playwright-mcp/
